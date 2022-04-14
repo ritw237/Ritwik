@@ -39,7 +39,7 @@ h1 {
 }
 .bg {
   /* border: 4px solid blanchedalmond; */
-  background: url("80724799_196917018094685_6371945291667555568_n.jpg")
+  background: url("./Ritwik23.jpeg")
     no-repeat center center;
   background-size: cover;
   width: 100%;
@@ -48,6 +48,7 @@ h1 {
 .right_container {
 }
 .about_me_container{
+    margin-top: 20px;
     transition: 0.5s ease-in-out;
     width: 100% auto;
     font-family: 'Baskervville', serif;
@@ -56,7 +57,7 @@ h1 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 .about_me_text {
     width: 80%;
